@@ -1,0 +1,7 @@
+TicketNo,FirstName,LastName,DateOfBirth,Sex,Carrier,FlightNo,Class,From,To,Date,Baggage,Seat,Gate,BoardingTime,NameValidation,DoBValidation,PersonValidation,BoardingPassValidation,LuggageValidation
+34236746,Sameer,Kumar,1990-01-25,M,UA,234,Economy,San Francisco,Chicago,"April 20, 2022",YES,34A,G1,10:00 AM PST,False,False,False,False,False
+34236747,Radha S.,Kumar,1994-03-05,F,UA,234,Economy,San Francisco,Chicago,"April 20, 2022",YES,34B,G1,10:00 AM PST,False,False,False,False,False
+34236748,James,Webb,1970-12-16,M,UA,234,Business,San Francisco,Chicago,"April 20, 2022",No,1A,G1,10:00 AM PST,False,False,False,False,False
+34236749,Libby,Herold,1996-02-10,F,UA,234,Business,San Francisco,Chicago,"April 20, 2022",No,3D,G1,10:00 AM PST,False,False,False,False,False
+34236750,James,Jackson,1956-10-12,M,UA,234,Economy,San Francisco,Chicago,"April 20, 2022",YES,25B,G1,10:00 AM PST,False,False,False,False,False
+34236751,Avkash,Chauhan,1990-01-01,M,UA,234,Economy,San Francisco,Chicago,"April 20, 2022",No,20A,G1,10:00 AM PST,False,False,False,False,False

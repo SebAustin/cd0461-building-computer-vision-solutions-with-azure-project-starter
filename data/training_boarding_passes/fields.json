@@ -1,0 +1,54 @@
+{
+ "fields": [
+  {
+   "fieldKey": "PassengerName",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "Carrier",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "FlightNo",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "Class",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "From",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "To",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "Date",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "BoardingTime",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "Seat",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  },
+  {
+   "fieldKey": "TicketNo",
+   "fieldType": "string",
+   "fieldFormat": "not-specified"
+  }
+ ]
+}

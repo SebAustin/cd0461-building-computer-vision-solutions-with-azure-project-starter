@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Problem Definition and Solution Strategy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Automated Passenger Boarding Kiosk</h1>
+<div class="sub">Problem definition, data sources and solution strategy</div>
+
+<h2>Problem</h2>
+<p>At the gate, an agent checks every passenger by hand: does the name on the ID match the boarding pass and the
+flight manifest, is the date of birth right, is this the person in the ID photo, and is the boarding pass for this
+flight, seat and time? It is slow, inconsistent between agents, and produces no record of what was checked. The airline also
+gets no structured feedback on how passengers experienced boarding.</p>
+<p>The goal is a self-service <b>kiosk</b> that performs these checks automatically from the documents and a short
+video the passenger already provides, shows a clear message (board, or see an agent and why), and records every
+result against the <b>flight manifest</b>. A separate <b>luggage check</b> flags prohibited items (lighters) in
+carry-on luggage.</p>
+
+<h2>Data sources</h2>
+<table>
+<tr><th>Source</th><th>Content</th><th>Used for</th></tr>
+<tr><td>Flight manifest (CSV)</td><td>One row per passenger: ticket number, name, date of birth, sex, carrier, flight, class, route, date, seat, gate, boarding time, and five validation statuses (all FALSE at start)</td><td>Ground truth every check is compared against</td></tr>
+<tr><td>Digital ID (PNG, California driver licence)</td><td>Name, date of birth, sex, face photo</td><td>Name, DoB and Person Validation</td></tr>
+<tr><td>Boarding pass (PDF)</td><td>Name, carrier, flight, class, route, date, seat, gate, boarding time, ticket number</td><td>Manifest lookup, Name and Boarding Pass Validation</td></tr>
+<tr><td>Identity video (MP4, ~30 s)</td><td>The passenger's face; any speech</td><td>Person Validation, passenger feedback</td></tr>
+<tr><td>Luggage scan images (JPG)</td><td>Carry-on items</td><td>Luggage Validation (lighter detection)</td></tr>
+<tr><td>Lighter training images (47 JPG)</td><td>Photos of lighters</td><td>Training the lighter detector</td></tr>
+</table>
+
+<h2>Solution strategy and Azure services</h2>
+<table>
+<tr><th>Input</th><th>Azure service</th><th>What it produces</th></tr>
+<tr><td>Digital ID</td><td>Document Intelligence (formerly Form Recognizer), prebuilt <code>idDocument</code> model</td><td>First/last name, date of birth, sex</td></tr>
+<tr><td>Boarding pass</td><td>Document Intelligence custom <b>template</b> model, trained on 12 synthetic passes generated from the airline template and labeled with 10 fields</td><td>All flight fields and the ticket number</td></tr>
+<tr><td>Identity video</td><td>Video Indexer (successor of Video Analyzer)</td><td>Face thumbnails, emotions, sentiment</td></tr>
+<tr><td>Video faces + ID photo</td><td>Face API: a person model trained on the video face frames, then <i>identify</i> with the ID face; <i>verify</i> as a cross-check</td><td>Face-match confidence</td></tr>
+<tr><td>Luggage images</td><td>Custom Vision object detection, tag <code>lighter</code></td><td>Lighter probability per image</td></tr>
+<tr><td>Everything</td><td>Blob Storage (7 containers: manifest, IDs, passes, training passes + labels, videos, luggage, results)</td><td>Inputs, training data, per-passenger results, final manifest</td></tr>
+</table>
+<p>The kiosk looks the passenger up on the manifest by the <b>ticket number</b> on the boarding pass (not by name), runs
+the five validations, writes TRUE/FALSE into the manifest and chooses the kiosk message.</p>
+
+<h2>Data validation, metrics and thresholds</h2>
+<table>
+<tr><th>Validation</th><th>Rule</th><th>Metric / threshold</th></tr>
+<tr><td>Name (3-way)</td><td>Boarding pass name and ID name both match the manifest; case, punctuation and middle initials ignored (first given name + last surname word)</td><td>Exact after normalization; extraction confidence logged</td></tr>
+<tr><td>Date of birth</td><td>ID date equals manifest date as a calendar date</td><td>Exact</td></tr>
+<tr><td>Boarding pass</td><td>Flight number (carrier + number), seat, class, origin, destination, date, boarding time all equal the manifest</td><td>Exact after normalization; model's estimated field accuracy ≥ 0.95 on training</td></tr>
+<tr><td>Person</td><td>ID face matches the face in the video</td><td>Face confidence <b>≥ 0.65</b></td></tr>
+<tr><td>Luggage</td><td>No lighter in the luggage scan</td><td>Max lighter probability <b>&lt; 0.5</b>; model precision must be <b>≥ 75%</b></td></tr>
+</table>
+<p>Unreadable evidence (a field the model could not read, an unparseable date) makes the validation fail. It is never
+skipped. Message order: a boarding-pass failure is shown first, then an ID failure (name/DoB). Otherwise the passenger is
+welcomed with flight, time, route and seat, followed by one luggage sentence and one identity sentence. A passenger
+whose luggage was not scanned is not told a lighter was found.</p>
+<p class="note">Passenger feedback (emotions and sentiment from the video) is stored as a positive/negative/neutral label with
+each passenger's result. It is informational and does not affect boarding.</p>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+ "modelId": "prebuilt-idDocument",
+ "documents": [
+  {
+   "docType": "idDocument.driverLicense",
+   "fields": {
+    "FirstName": {
+     "type": "string",
+     "valueString": "AVKASH CHAUHAN",
+     "content": "AVKASH CHAUHAN",
+     "confidence": 0.777
+    },
+    "LastName": {
+     "type": "string",
+     "valueString": "CHAUHAN",
+     "content": "CHAUHAN",
+     "confidence": 0.696
+    },
+    "DateOfBirth": {
+     "type": "date",
+     "valueDate": "1990-01-01",
+     "content": "01/01/1990",
+     "confidence": 0.663
+    },
+    "Sex": {
+     "type": "string",
+     "valueString": "M",
+     "content": "M",
+     "confidence": 0.488
+    }
+   }
+  }
+ ]
+}

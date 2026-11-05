@@ -1,0 +1,36 @@
+{
+  "ticket_no": "34236746",
+  "passenger": "Sameer Kumar",
+  "extracted_id": {
+    "first_name": "Sameer",
+    "last_name": "Kumar",
+    "date_of_birth": "1990-01-25",
+    "sex": "M"
+  },
+  "extracted_boarding_pass": {
+    "passenger_name": "Sameer Kumar",
+    "carrier": "UA",
+    "flight_no": "234",
+    "travel_class": "E",
+    "origin": "San Francisco",
+    "destination": "Chicago",
+    "flight_date": "April 20, 2022",
+    "boarding_time": "10:00 AM",
+    "seat": "34A",
+    "ticket_no": "ETK-34236746E"
+  },
+  "person_match": null,
+  "luggage_scan": {
+    "status": "scanned",
+    "lighter_probability": 0.5208339,
+    "image": "lighter_test_set_1of5.jpg"
+  },
+  "validations": {
+    "NameValidation": true,
+    "DoBValidation": true,
+    "PersonValidation": false,
+    "BoardingPassValidation": true,
+    "LuggageValidation": false
+  },
+  "kiosk_message": "Dear Mr. Sameer Kumar,\nYou are welcome to flight # UA234 leaving at 10:00 AM from San Francisco to Chicago.\nYour seat number is 34A, and it is confirmed.\nWe have found a prohibited item in your carry-on baggage, and it is flagged for removal.\nYour identity could not be verified. Please see a customer service representative."
+}

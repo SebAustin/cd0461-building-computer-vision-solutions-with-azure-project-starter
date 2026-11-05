@@ -1,0 +1,57 @@
+{
+ "docTypes": {
+  "boarding-pass-v1": {
+   "fieldSchema": {
+    "PassengerName": {
+     "type": "string"
+    },
+    "Carrier": {
+     "type": "string"
+    },
+    "FlightNo": {
+     "type": "string"
+    },
+    "Class": {
+     "type": "string"
+    },
+    "From": {
+     "type": "string"
+    },
+    "To": {
+     "type": "string"
+    },
+    "Date": {
+     "type": "string"
+    },
+    "BoardingTime": {
+     "type": "string"
+    },
+    "Seat": {
+     "type": "string"
+    },
+    "TicketNo": {
+     "type": "string"
+    }
+   },
+   "buildMode": "template",
+   "fieldConfidence": {
+    "BoardingTime": 0.995,
+    "Carrier": 0.995,
+    "Class": 0.995,
+    "Date": 0.995,
+    "FlightNo": 0.995,
+    "From": 0.995,
+    "PassengerName": 0.995,
+    "Seat": 0.995,
+    "TicketNo": 0.995,
+    "To": 0.995
+   }
+  }
+ },
+ "modelId": "boarding-pass-v1",
+ "createdDateTime": "2026-11-05T16:39:34Z",
+ "modifiedDateTime": "2026-11-05T16:39:34Z",
+ "expirationDateTime": "2028-11-04T16:39:34Z",
+ "apiVersion": "2024-11-30",
+ "description": "Udacity boarding pass extractor (template model, synthetic training passes)"
+}

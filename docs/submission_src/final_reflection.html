@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Final Reflection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Final Reflection</h1>
+<div class="sub">Two Azure AI service problems hit while building the boarding kiosk, and how they were resolved</div>
+
+<h2>Problem 1: Document Intelligence rejected my boarding-pass label files</h2>
+<p><b>What happened.</b> I generated the training labels in code instead of clicking through the labeling site. For each
+of 12 synthetic boarding passes I ran the layout model, found the known values among the recognized words, and wrote
+<code>&lt;pass&gt;.pdf.labels.json</code>, <code>&lt;pass&gt;.pdf.ocr.json</code> and <code>fields.json</code> to Blob Storage. Building the custom
+template model then failed with:</p>
+<p><code>ModelBuildError: Can't find any valid labels for provided dataset. Generic error during processing labels for training-pass-01.pdf …
+fields.json is present but has wrong schema.</code></p>
+<p>The message names no field or line. Two attempts at "fixing the obvious thing" changed nothing: wrapping the layout result in the
+Studio envelope (<code>status</code>, <code>createdDateTime</code>), and requesting <code>utf16CodeUnit</code> offsets. Removing
+<code>.ocr.json</code> altogether gave a different error, <code>TrainingContentMissing</code>, which showed the OCR file is mandatory.</p>
+<p><b>How I resolved it.</b> I stopped changing one thing per training run. Instead I uploaded copies of the same six passes
+under separate blob prefixes, each with a single variation of the label file, and started one build per prefix with the
+<code>prefix</code> parameter of <code>AzureBlobContentSource</code>. One variant built successfully: label files <b>without the
+top-level <code>"$schema"</code> key</b> (and a <code>fields.json</code> with only a <code>fields</code> array). With that change the real
+model, <code>boarding-pass-v1</code>, trained with an estimated accuracy of 0.995 on all 10 fields and extracted all six real passes correctly.
+I added a unit test that asserts the label file has exactly the keys <code>document</code> and <code>labels</code>, so the regression cannot return.</p>
+<p><b>Lesson.</b> When a service only says "generic error", run controlled variants side by side rather than guessing one change at a time.
+Each build took about a minute, so the comparison cost minutes, not hours.</p>
+
+<h2>Problem 2: Vision services blocked by Azure Policy in the first lab subscription</h2>
+<p><b>What happened.</b> I started in the subscription that was already signed in to the Azure CLI. Storage and Document Intelligence
+deployed fine. Every attempt to create Face, Custom Vision or Computer Vision failed with:</p>
+<p><code>RequestDisallowedByPolicy: Resource 'kiosk-face-1aq' was disallowed by policy … "Restrict Vision and Speech AI services"</code></p>
+<p>Calling the Face API through a multi-service AI Services account returned <code>401 Access denied</code>. Registering the
+<code>Microsoft.VideoIndexer</code> provider failed with <code>AuthorizationFailed</code>. A second lab subscription in the same tenant had the
+same management-group policy. The subscription belonged to a different (generative AI) course, so its policy only allowed that course's services.</p>
+<p><b>How I resolved it.</b> I diagnosed it before writing any face code: I read the policy assignment named in the error and
+probed each service with one create call. Then I moved only the blocked services to the computer-vision course's own lab subscription
+(Udacity CloudLabs). There I created Face, Custom Vision (training and prediction) and a Video Indexer account. Video Indexer needs a storage
+account and a <i>Storage Blob Data Contributor</i> role for its managed identity. I also checked that Face <i>detect</i> returned a
+<code>faceId</code>, since verify and identify are Limited Access features. Document Intelligence and the project's Blob Storage stayed where they were, so the
+solution now spans two subscriptions. Each service's endpoint and key come from <code>.env</code>, and the teardown script deletes resources in both.</p>
+<p><b>Lesson.</b> In a managed environment, check which services the subscription allows (policy and provider registration) before designing
+around them. The error message names the exact policy, which settles whether to keep retrying or move.</p>
+
+<h2>Other issues worth noting</h2>
+<ul>
+<li><b>Retired services.</b> Azure Video Analyzer was retired in 2022. Video Indexer replaced it, and it no longer reports facial
+emotions. Emotions now come from speech, so the silent identity video produces only <i>Neutral</i> sentiment. The feedback label is therefore "neutral".</li>
+<li><b>Custom Vision "Failed" iteration.</b> The first training failed because the images carried the <code>lighter</code> tag at image level with no
+bounding boxes, and object detection needs regions. Re-uploading the images with 60 boxes fixed it. The boxes are kept in <code>data/lighter_boxes.json</code>, so the dataset is reproducible.</li>
+<li><b>Domain shift in lighter detection.</b> Training photos are close-ups of single lighters, while the test trays show small lighters among clutter.
+The quick-trained model had 100% precision but missed three of the five test lighters at the 0.5 cutoff. I kept the threshold fixed rather than
+lowering it after seeing test results, and retrained with Advanced training (1-hour budget) instead. Recall rose from 17.6% to 41.2% and mAP from
+81.6% to 92.4%, precision stayed at 100%, and the model now catches three of five test lighters. Publishing the new iteration first failed with
+"The name is in use by another published iteration", so the publish step now unpublishes the old iteration first.
+For a few seconds after the switch, the prediction endpoint still answered some requests from the old iteration, so I re-scored until the results matched the new model's quick test.</li>
+</ul>
+</body>
+</html>

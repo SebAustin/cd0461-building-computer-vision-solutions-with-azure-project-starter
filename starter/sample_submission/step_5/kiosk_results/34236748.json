@@ -1,0 +1,36 @@
+{
+  "ticket_no": "34236748",
+  "passenger": "James Webb",
+  "extracted_id": {
+    "first_name": "James",
+    "last_name": "Webb",
+    "date_of_birth": "1970-12-15",
+    "sex": "M"
+  },
+  "extracted_boarding_pass": {
+    "passenger_name": "James Webb",
+    "carrier": "UA",
+    "flight_no": "234",
+    "travel_class": "B",
+    "origin": "San Francisco",
+    "destination": "Chicago",
+    "flight_date": "April 20, 2022",
+    "boarding_time": "10:00 AM",
+    "seat": "1A",
+    "ticket_no": "ETK-34236748B"
+  },
+  "person_match": null,
+  "luggage_scan": {
+    "status": "scanned",
+    "lighter_probability": 0.29522532,
+    "image": "lighter_test_set_3of5.jpg"
+  },
+  "validations": {
+    "NameValidation": true,
+    "DoBValidation": false,
+    "PersonValidation": false,
+    "BoardingPassValidation": true,
+    "LuggageValidation": true
+  },
+  "kiosk_message": "Dear Sir/Madam,\nSome of the information on your ID card does not match the flight manifest data, so you cannot board the plane.\nPlease see a customer service representative."
+}

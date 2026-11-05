@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Data Flow Diagram</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  @page { size: Letter landscape; margin: 0.45in; }
+  .in   { fill: #eef3f9; stroke: #6d87a8; }
+  .proc { fill: #ffffff; stroke: #0b5cad; stroke-width: 1.6; }
+  .val  { fill: #e9f6ee; stroke: #1d7a46; stroke-width: 1.6; }
+  .out  { fill: #fff6e5; stroke: #b9770e; }
+  .store{ fill: #f4f4f6; stroke: #77808f; stroke-dasharray: 4 3; }
+  rect { rx: 6; }
+  .t  { font-size: 12.5px; fill: #1d2433; font-weight: 600; text-anchor: middle; }
+  .s  { font-size: 10.5px; fill: #5b6475; text-anchor: middle; }
+  .col{ font-size: 11px; fill: #5b6475; letter-spacing: .08em; text-anchor: middle; font-weight: 600; }
+  .a  { stroke: #4a5568; stroke-width: 1.4; fill: none; marker-end: url(#arr); }
+</style>
+</head>
+<body>
+<h1>Data Flow Diagram</h1>
+<div class="sub">Automated Passenger Boarding Kiosk: how data moves from inputs to the boarding decision (technology-neutral)</div>
+<figure>
+<svg viewBox="0 0 1000 560" width="100%" role="img" aria-label="Data flow from passenger inputs through extraction and matching to validation and outputs">
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/></marker></defs>
+
+  <text class="col" x="95" y="18">INPUTS</text>
+  <text class="col" x="330" y="18">EXTRACTION</text>
+  <text class="col" x="560" y="18">MATCHING</text>
+  <text class="col" x="760" y="18">VALIDATION</text>
+  <text class="col" x="920" y="18">OUTPUTS</text>
+
+  <!-- inputs -->
+  <rect class="in" x="15" y="35"  width="160" height="46"/><text class="t" x="95" y="55">Boarding pass</text><text class="s" x="95" y="70">document</text>
+  <rect class="in" x="15" y="105" width="160" height="46"/><text class="t" x="95" y="125">Digital ID</text><text class="s" x="95" y="140">image</text>
+  <rect class="in" x="15" y="215" width="160" height="46"/><text class="t" x="95" y="235">Identity video</text><text class="s" x="95" y="250">30-second face video</text>
+  <rect class="in" x="15" y="345" width="160" height="46"/><text class="t" x="95" y="365">Luggage scan</text><text class="s" x="95" y="380">carry-on image</text>
+  <rect class="in" x="15" y="450" width="160" height="46"/><text class="t" x="95" y="470">Flight manifest</text><text class="s" x="95" y="485">ground truth table</text>
+
+  <!-- training (feeds extractors) -->
+  <rect class="store" x="230" y="470" width="200" height="60"/><text class="t" x="330" y="493">Labeled training data</text><text class="s" x="330" y="508">sample passes + lighter photos</text><text class="s" x="330" y="521">→ trained extractor / detector</text>
+
+  <!-- extraction -->
+  <rect class="proc" x="240" y="35"  width="180" height="46"/><text class="t" x="330" y="55">Boarding-pass fields</text><text class="s" x="330" y="70">trained form extractor</text>
+  <rect class="proc" x="240" y="105" width="180" height="46"/><text class="t" x="330" y="125">ID fields</text><text class="s" x="330" y="140">name, DoB, sex</text>
+  <rect class="proc" x="240" y="165" width="180" height="40"/><text class="t" x="330" y="183">ID face</text><text class="s" x="330" y="197">face from ID photo</text>
+  <rect class="proc" x="240" y="225" width="180" height="40"/><text class="t" x="330" y="243">Video face frames</text><text class="s" x="330" y="257">faces found in video</text>
+  <rect class="proc" x="240" y="280" width="180" height="40"/><text class="t" x="330" y="298">Emotion &amp; sentiment</text><text class="s" x="330" y="312">from the same video</text>
+  <rect class="proc" x="240" y="345" width="180" height="46"/><text class="t" x="330" y="365">Lighter detection</text><text class="s" x="330" y="380">probability per image</text>
+
+  <!-- matching -->
+  <rect class="proc" x="470" y="35"  width="180" height="46"/><text class="t" x="560" y="55">Manifest lookup</text><text class="s" x="560" y="70">by ticket number</text>
+  <rect class="proc" x="470" y="200" width="180" height="56"/><text class="t" x="560" y="220">Person model</text><text class="s" x="560" y="235">built from video frames,</text><text class="s" x="560" y="248">compared with ID face</text>
+
+  <!-- validation -->
+  <rect class="val" x="690" y="35" width="140" height="390"/>
+  <text class="t" x="760" y="60">5 validations</text>
+  <text class="s" x="760" y="92">Name (3-way)</text>
+  <text class="s" x="760" y="122">Date of birth</text>
+  <text class="s" x="760" y="152">Boarding pass</text>
+  <text class="s" x="760" y="232">Person ≥ 65%</text>
+  <text class="s" x="760" y="372">Luggage: lighter &lt; 50%</text>
+
+  <!-- outputs -->
+  <rect class="out" x="860" y="60"  width="125" height="56"/><text class="t" x="922" y="83">Kiosk message</text><text class="s" x="922" y="99">board / see agent</text>
+  <rect class="out" x="860" y="150" width="125" height="56"/><text class="t" x="922" y="173">Updated</text><text class="s" x="922" y="189">manifest TRUE/FALSE</text>
+  <rect class="out" x="860" y="280" width="125" height="46"/><text class="t" x="922" y="300">Passenger</text><text class="s" x="922" y="314">feedback record</text>
+  <rect class="store" x="860" y="450" width="125" height="60"/><text class="t" x="922" y="474">Archive</text><text class="s" x="922" y="490">inputs + results</text>
+
+  <!-- arrows: inputs -> extraction -->
+  <path class="a" d="M175,58 H240"/>
+  <path class="a" d="M175,128 H240"/>
+  <path class="a" d="M175,138 C205,150 210,185 240,185"/>
+  <path class="a" d="M175,238 C205,238 210,245 240,245"/>
+  <path class="a" d="M175,248 C205,260 210,300 240,300"/>
+  <path class="a" d="M175,368 H240"/>
+  <path class="a" d="M330,470 V391"/>
+  <path class="a" d="M240,500 H218 V72 H240"/>
+
+  <!-- extraction -> matching/validation -->
+  <path class="a" d="M420,58 H470"/>
+  <path class="a" d="M420,185 C450,185 450,215 470,215"/>
+  <path class="a" d="M420,245 H470"/>
+  <path class="a" d="M650,58 H690"/>
+  <path class="a" d="M420,128 C560,128 640,118 690,118"/>
+  <path class="a" d="M650,228 H690"/>
+  <path class="a" d="M420,368 H690"/>
+  <path class="a" d="M175,460 H448 V74 H470"/>
+
+  <!-- validation -> outputs -->
+  <path class="a" d="M830,88 H860"/>
+  <path class="a" d="M830,178 H860"/>
+  <path class="a" d="M420,300 C640,300 800,303 860,303"/>
+  <path class="a" d="M830,400 C850,400 900,420 922,450"/>
+  <path class="a" d="M985,178 H996 V480 H985"/>
+</svg>
+<figcaption>Inputs are read once. Their text, faces and objects are extracted, the passenger is found on the manifest by ticket
+number, and five independent validations each produce TRUE or FALSE. Validation results drive the kiosk message and are written
+back to the manifest. Emotion and sentiment from the video become a feedback record that does not affect boarding. Everything is archived.</figcaption>
+</figure>
+</body>
+</html>

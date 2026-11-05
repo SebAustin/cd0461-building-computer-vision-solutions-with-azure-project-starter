@@ -1,0 +1,37 @@
+:root {
+  --ink: #1d2433;
+  --muted: #5b6475;
+  --accent: #0b5cad;
+  --accent-soft: #e7f0fa;
+  --ok: #1d7a46;
+  --line: #c9d2de;
+  --font-body: "Charter", "Georgia", serif;
+  --font-head: "Avenir Next", "Helvetica Neue", sans-serif;
+}
+
+@page { size: Letter; margin: 0.6in 0.65in; }
+
+body {
+  background: #fff;
+  color: var(--ink);
+  font: 10.5pt/1.42 var(--font-body);
+  margin: 0;
+}
+
+h1, h2, h3, th, .label, figcaption { font-family: var(--font-head); }
+h1 { font-size: 19pt; margin: 0 0 2pt; letter-spacing: -0.01em; }
+h1 + .sub { color: var(--muted); font: 10pt var(--font-head); margin-bottom: 12pt; }
+h2 { font-size: 12pt; color: var(--accent); margin: 13pt 0 4pt; border-bottom: 1px solid var(--line); padding-bottom: 2pt; }
+p { margin: 0 0 6pt; }
+ul { margin: 0 0 6pt; padding-left: 16pt; }
+li { margin-bottom: 2pt; }
+
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: 4pt 0 8pt; }
+th { text-align: left; background: var(--accent-soft); font-size: 9pt; }
+th, td { border: 1px solid var(--line); padding: 3pt 5pt; vertical-align: top; }
+
+code { font: 9pt "SF Mono", Menlo, monospace; background: #f3f5f8; padding: 0 2pt; }
+figure { margin: 6pt 0; }
+figcaption { color: var(--muted); font-size: 9pt; margin-top: 4pt; }
+svg text { font-family: var(--font-head); }
+.note { color: var(--muted); font-size: 9.5pt; }

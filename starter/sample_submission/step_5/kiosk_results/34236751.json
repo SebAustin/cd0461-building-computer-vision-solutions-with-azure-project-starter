@@ -1,0 +1,39 @@
+{
+  "ticket_no": "34236751",
+  "passenger": "Avkash Chauhan",
+  "extracted_id": {
+    "first_name": "AVKASH CHAUHAN",
+    "last_name": "CHAUHAN",
+    "date_of_birth": "1990-01-01",
+    "sex": "M"
+  },
+  "extracted_boarding_pass": {
+    "passenger_name": "Avkash Chauhan",
+    "carrier": "UA",
+    "flight_no": "234",
+    "travel_class": "E",
+    "origin": "San Francisco",
+    "destination": "Chicago",
+    "flight_date": "April 20, 2022",
+    "boarding_time": "10:00 AM",
+    "seat": "20A",
+    "ticket_no": "ETK-34236751E"
+  },
+  "person_match": {
+    "confidence": 0.9571,
+    "source": "face-person-group-identify"
+  },
+  "luggage_scan": {
+    "status": "not_scanned",
+    "lighter_probability": null,
+    "image": null
+  },
+  "validations": {
+    "NameValidation": true,
+    "DoBValidation": true,
+    "PersonValidation": true,
+    "BoardingPassValidation": true,
+    "LuggageValidation": false
+  },
+  "kiosk_message": "Dear Mr. Avkash Chauhan,\nYou are welcome to flight # UA234 leaving at 10:00 AM from San Francisco to Chicago.\nYour seat number is 20A, and it is confirmed.\nYour identity is verified so please board the plane."
+}

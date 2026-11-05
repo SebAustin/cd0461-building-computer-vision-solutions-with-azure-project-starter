@@ -1,0 +1,2562 @@
+{
+  "lighter_test_set_1of5.jpg": {
+    "ticket_no": "34236746",
+    "max_lighter_probability": 0.5208339,
+    "regions": [
+      {
+        "tag": "lighter",
+        "probability": 0.5208339,
+        "box": {
+          "left": 0.31159118,
+          "top": 0.08615798,
+          "width": 0.6884078,
+          "height": 0.8467723
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.21894531,
+        "box": {
+          "left": 0.0633291,
+          "top": 0.103937685,
+          "width": 0.34296447,
+          "height": 0.7664367
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.18139252,
+        "box": {
+          "left": 0.52968955,
+          "top": 0.5652312,
+          "width": 0.2139939,
+          "height": 0.35892153
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.08161006,
+        "box": {
+          "left": 0.35115933,
+          "top": 0.6234463,
+          "width": 0.45431507,
+          "height": 0.33782881
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.079082124,
+        "box": {
+          "left": 0.42364466,
+          "top": 0.19112918,
+          "width": 0.5023241,
+          "height": 0.4597334
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.022632575,
+        "box": {
+          "left": 0.34222886,
+          "top": 0.676133,
+          "width": 0.16584513,
+          "height": 0.26863247
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.016998723,
+        "box": {
+          "left": 0.14906728,
+          "top": 0.7716941,
+          "width": 0.056327403,
+          "height": 0.08123195
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.016491856,
+        "box": {
+          "left": 0.5902196,
+          "top": 0.5385053,
+          "width": 0.057727575,
+          "height": 0.092229545
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013911554,
+        "box": {
+          "left": 0.0,
+          "top": 0.107052565,
+          "width": 0.7671654,
+          "height": 0.78445184
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013898954,
+        "box": {
+          "left": 0.736707,
+          "top": 0.0,
+          "width": 0.18632627,
+          "height": 0.27223808
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013664564,
+        "box": {
+          "left": 0.19562533,
+          "top": 0.77828896,
+          "width": 0.045200437,
+          "height": 0.06955361
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013592145,
+        "box": {
+          "left": 0.37300104,
+          "top": 0.43766937,
+          "width": 0.1867432,
+          "height": 0.27998033
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012404307,
+        "box": {
+          "left": 0.28712887,
+          "top": 0.62819946,
+          "width": 0.17346615,
+          "height": 0.3557257
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011392891,
+        "box": {
+          "left": 0.7052865,
+          "top": 0.38991287,
+          "width": 0.14574593,
+          "height": 0.36861286
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011315135,
+        "box": {
+          "left": 0.1494736,
+          "top": 0.82628185,
+          "width": 0.054004297,
+          "height": 0.082690895
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011118039,
+        "box": {
+          "left": 0.24809885,
+          "top": 0.70158446,
+          "width": 0.04721409,
+          "height": 0.08000344
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011041626,
+        "box": {
+          "left": 0.093553655,
+          "top": 0.4914909,
+          "width": 0.16437075,
+          "height": 0.32680833
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010596798,
+        "box": {
+          "left": 0.108002715,
+          "top": 0.82264996,
+          "width": 0.054077037,
+          "height": 0.08833307
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.01049219,
+        "box": {
+          "left": 0.104848154,
+          "top": 0.7735692,
+          "width": 0.05209314,
+          "height": 0.08110583
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009903659,
+        "box": {
+          "left": 0.0,
+          "top": 0.033140644,
+          "width": 0.16166744,
+          "height": 0.30961847
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009364,
+        "box": {
+          "left": 0.15391836,
+          "top": 0.6927246,
+          "width": 0.045529127,
+          "height": 0.072363496
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009346058,
+        "box": {
+          "left": 0.24850594,
+          "top": 0.753137,
+          "width": 0.048622742,
+          "height": 0.080176055
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009286974,
+        "box": {
+          "left": 0.29513538,
+          "top": 0.7604768,
+          "width": 0.056938797,
+          "height": 0.08951855
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008207504,
+        "box": {
+          "left": 0.5934199,
+          "top": 0.3238935,
+          "width": 0.1652301,
+          "height": 0.35574162
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007915791,
+        "box": {
+          "left": 0.7484128,
+          "top": 0.53006214,
+          "width": 0.05716139,
+          "height": 0.08692056
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007359685,
+        "box": {
+          "left": 0.1804142,
+          "top": 0.63775766,
+          "width": 0.1786536,
+          "height": 0.33769512
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007289923,
+        "box": {
+          "left": 0.03174691,
+          "top": 0.5293932,
+          "width": 0.48204476,
+          "height": 0.4062016
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006946594,
+        "box": {
+          "left": 0.50573826,
+          "top": 0.14766482,
+          "width": 0.33648908,
+          "height": 0.83368444
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0069011445,
+        "box": {
+          "left": 0.7424806,
+          "top": 0.6038154,
+          "width": 0.06381476,
+          "height": 0.104242206
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0068163807,
+        "box": {
+          "left": 0.78791034,
+          "top": 0.2398841,
+          "width": 0.17570043,
+          "height": 0.35631055
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0066365087,
+        "box": {
+          "left": 0.09255826,
+          "top": 0.63753074,
+          "width": 0.15855104,
+          "height": 0.32337666
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006579684,
+        "box": {
+          "left": 0.69105685,
+          "top": 0.217654,
+          "width": 0.06642264,
+          "height": 0.10016452
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006462308,
+        "box": {
+          "left": 0.7924769,
+          "top": 0.4023781,
+          "width": 0.16433215,
+          "height": 0.3466694
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061080353,
+        "box": {
+          "left": 0.0,
+          "top": 0.011915907,
+          "width": 0.31291384,
+          "height": 0.3608325
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061043105,
+        "box": {
+          "left": 0.9495275,
+          "top": 0.5968128,
+          "width": 0.048935592,
+          "height": 0.07905847
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006017156,
+        "box": {
+          "left": 0.4944341,
+          "top": 0.5274132,
+          "width": 0.054914743,
+          "height": 0.095573306
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00601378,
+        "box": {
+          "left": 0.74684495,
+          "top": 0.14746821,
+          "width": 0.054858565,
+          "height": 0.08775644
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005954435,
+        "box": {
+          "left": 0.59357244,
+          "top": 0.026397228,
+          "width": 0.1582058,
+          "height": 0.33591
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0059174495,
+        "box": {
+          "left": 0.6795752,
+          "top": 0.16432539,
+          "width": 0.2917797,
+          "height": 0.81081676
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0058414144,
+        "box": {
+          "left": 0.03977021,
+          "top": 0.4016381,
+          "width": 0.16785505,
+          "height": 0.35015088
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057452517,
+        "box": {
+          "left": 0.64465463,
+          "top": 0.22269401,
+          "width": 0.060457528,
+          "height": 0.09182191
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0054885405,
+        "box": {
+          "left": 0.64661396,
+          "top": 0.14828992,
+          "width": 0.05315411,
+          "height": 0.089451775
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0054480266,
+        "box": {
+          "left": 0.6956354,
+          "top": 0.1455704,
+          "width": 0.056276083,
+          "height": 0.09471014
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005403373,
+        "box": {
+          "left": 0.6972077,
+          "top": 0.6037477,
+          "width": 0.06071925,
+          "height": 0.10056305
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0053934976,
+        "box": {
+          "left": 0.13698871,
+          "top": 0.5645157,
+          "width": 0.1787235,
+          "height": 0.32665062
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005279771,
+        "box": {
+          "left": 0.7425411,
+          "top": 0.21809512,
+          "width": 0.06443089,
+          "height": 0.09978855
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0051261093,
+        "box": {
+          "left": 0.5965635,
+          "top": 0.22082561,
+          "width": 0.05965078,
+          "height": 0.09519422
+        }
+      }
+    ]
+  },
+  "lighter_test_set_2of5.jpg": {
+    "ticket_no": "34236747",
+    "max_lighter_probability": 0.78086174,
+    "regions": [
+      {
+        "tag": "lighter",
+        "probability": 0.78086174,
+        "box": {
+          "left": 0.32417768,
+          "top": 0.56519663,
+          "width": 0.22775298,
+          "height": 0.2631244
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.46918178,
+        "box": {
+          "left": 0.2849297,
+          "top": 0.33934903,
+          "width": 0.27881438,
+          "height": 0.2573158
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.31110525,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.13988502,
+          "height": 0.1726507
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.20318383,
+        "box": {
+          "left": 0.4871075,
+          "top": 0.39861178,
+          "width": 0.2735212,
+          "height": 0.24398339
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.13671616,
+        "box": {
+          "left": 0.24565494,
+          "top": 0.20649211,
+          "width": 0.6172892,
+          "height": 0.31176525
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.07513189,
+        "box": {
+          "left": 0.50568366,
+          "top": 0.58319885,
+          "width": 0.24469745,
+          "height": 0.22124153
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.064716324,
+        "box": {
+          "left": 0.3324861,
+          "top": 0.17000493,
+          "width": 0.459135,
+          "height": 0.5979713
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.059611235,
+        "box": {
+          "left": 0.47890925,
+          "top": 0.20090652,
+          "width": 0.19194913,
+          "height": 0.19163316
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.047358017,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.08657643,
+          "height": 0.0857073
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.023376958,
+        "box": {
+          "left": 0.18100175,
+          "top": 0.0,
+          "width": 0.2358892,
+          "height": 0.19219874
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.02325585,
+        "box": {
+          "left": 0.25276121,
+          "top": 0.23013112,
+          "width": 0.25194922,
+          "height": 0.26049197
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.020009356,
+        "box": {
+          "left": 0.25847858,
+          "top": 0.0,
+          "width": 0.07851249,
+          "height": 0.057084132
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.019496944,
+        "box": {
+          "left": 0.33912677,
+          "top": 0.3452253,
+          "width": 0.5690968,
+          "height": 0.26557866
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.017301936,
+        "box": {
+          "left": 0.0,
+          "top": 0.75633615,
+          "width": 0.07373938,
+          "height": 0.10623503
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.01581989,
+        "box": {
+          "left": 0.4493795,
+          "top": 0.29750246,
+          "width": 0.23595828,
+          "height": 0.24636513
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.015536412,
+        "box": {
+          "left": 0.32265526,
+          "top": 0.0,
+          "width": 0.22124368,
+          "height": 0.2020204
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.014408884,
+        "box": {
+          "left": 0.3261885,
+          "top": 0.0,
+          "width": 0.08088499,
+          "height": 0.060214423
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012295545,
+        "box": {
+          "left": 0.33369625,
+          "top": 0.4684302,
+          "width": 0.18909836,
+          "height": 0.24805638
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012102188,
+        "box": {
+          "left": 0.526981,
+          "top": 0.17964688,
+          "width": 0.23046327,
+          "height": 0.22964707
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.01180454,
+        "box": {
+          "left": 0.030174628,
+          "top": 0.0,
+          "width": 0.2630394,
+          "height": 0.19332232
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011499197,
+        "box": {
+          "left": 0.3836479,
+          "top": 0.40071902,
+          "width": 0.22591272,
+          "height": 0.24083337
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011342208,
+        "box": {
+          "left": 0.13371572,
+          "top": 0.02956324,
+          "width": 0.2097626,
+          "height": 0.2180723
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011127883,
+        "box": {
+          "left": 0.38401237,
+          "top": 0.5457376,
+          "width": 0.08707014,
+          "height": 0.083590925
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011094241,
+        "box": {
+          "left": 0.3985268,
+          "top": 0.0,
+          "width": 0.06995559,
+          "height": 0.058764167
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010609048,
+        "box": {
+          "left": 0.27791187,
+          "top": 0.43144447,
+          "width": 0.56818056,
+          "height": 0.29522306
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010574574,
+        "box": {
+          "left": 0.667073,
+          "top": 0.49020463,
+          "width": 0.07497257,
+          "height": 0.06390649
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009830181,
+        "box": {
+          "left": 0.46590486,
+          "top": 0.5981954,
+          "width": 0.0726051,
+          "height": 0.07472378
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009767789,
+        "box": {
+          "left": 0.25601995,
+          "top": 0.0,
+          "width": 0.2204726,
+          "height": 0.1499181
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009688633,
+        "box": {
+          "left": 0.7157072,
+          "top": 0.0,
+          "width": 0.23394483,
+          "height": 0.20443621
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009469396,
+        "box": {
+          "left": 0.18523505,
+          "top": 0.072699316,
+          "width": 0.23153359,
+          "height": 0.23816216
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009407331,
+        "box": {
+          "left": 0.2837183,
+          "top": 0.5162738,
+          "width": 0.18786973,
+          "height": 0.22963148
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009251456,
+        "box": {
+          "left": 0.5873753,
+          "top": 0.21424197,
+          "width": 0.21503365,
+          "height": 0.2912135
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008593225,
+        "box": {
+          "left": 0.3831414,
+          "top": 0.5274508,
+          "width": 0.20971787,
+          "height": 0.23176837
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008466865,
+        "box": {
+          "left": 0.45169678,
+          "top": 0.45523718,
+          "width": 0.22764567,
+          "height": 0.24950394
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008351824,
+        "box": {
+          "left": 0.72040886,
+          "top": 0.8031372,
+          "width": 0.2157833,
+          "height": 0.1968618
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008273065,
+        "box": {
+          "left": 0.27959242,
+          "top": 0.5473279,
+          "width": 0.5604986,
+          "height": 0.29966372
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008229378,
+        "box": {
+          "left": 0.18797599,
+          "top": 0.0,
+          "width": 0.089110956,
+          "height": 0.05869501
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0078721875,
+        "box": {
+          "left": 0.6568016,
+          "top": 0.32859963,
+          "width": 0.0721181,
+          "height": 0.07238361
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007819299,
+        "box": {
+          "left": 0.079064906,
+          "top": 0.01650381,
+          "width": 0.9209341,
+          "height": 0.5931246
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007218927,
+        "box": {
+          "left": 0.0,
+          "top": 0.5611224,
+          "width": 0.12301882,
+          "height": 0.266685
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0071925586,
+        "box": {
+          "left": 0.60151994,
+          "top": 0.3310536,
+          "width": 0.069381595,
+          "height": 0.07028261
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006886275,
+        "box": {
+          "left": 0.65277725,
+          "top": 0.64694,
+          "width": 0.09022093,
+          "height": 0.08842486
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0068091406,
+        "box": {
+          "left": 0.6001921,
+          "top": 0.5973679,
+          "width": 0.07775891,
+          "height": 0.080058634
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006691992,
+        "box": {
+          "left": 0.7315504,
+          "top": 0.0,
+          "width": 0.06760627,
+          "height": 0.055217855
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0066088876,
+        "box": {
+          "left": 0.66480696,
+          "top": 0.0,
+          "width": 0.07023382,
+          "height": 0.0556847
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006603436,
+        "box": {
+          "left": 0.49275577,
+          "top": 0.060130745,
+          "width": 0.40483356,
+          "height": 0.60166323
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061628176,
+        "box": {
+          "left": 0.46506825,
+          "top": 0.0,
+          "width": 0.072256535,
+          "height": 0.05711624
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061309026,
+        "box": {
+          "left": 0.0,
+          "top": 0.674368,
+          "width": 0.116109416,
+          "height": 0.256366
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0060480526,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.60640734,
+          "height": 0.212935
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0059848246,
+        "box": {
+          "left": 0.4697444,
+          "top": 0.55122375,
+          "width": 0.06464532,
+          "height": 0.06712252
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0059239888,
+        "box": {
+          "left": 0.5214772,
+          "top": 0.6580166,
+          "width": 0.08742213,
+          "height": 0.07834458
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0058548683,
+        "box": {
+          "left": 0.5975186,
+          "top": 0.0,
+          "width": 0.07184601,
+          "height": 0.0555638
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0056868857,
+        "box": {
+          "left": 0.5913771,
+          "top": 0.64873195,
+          "width": 0.0878585,
+          "height": 0.087278426
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0056798984,
+        "box": {
+          "left": 0.53268975,
+          "top": 0.0,
+          "width": 0.0702942,
+          "height": 0.055751063
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005632377,
+        "box": {
+          "left": 0.3829072,
+          "top": 0.008952931,
+          "width": 0.22531003,
+          "height": 0.26305395
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005512104,
+        "box": {
+          "left": 0.39505845,
+          "top": 0.60183936,
+          "width": 0.073473185,
+          "height": 0.070931256
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005356389,
+        "box": {
+          "left": 0.65386987,
+          "top": 0.14494644,
+          "width": 0.20362997,
+          "height": 0.21522827
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005210248,
+        "box": {
+          "left": 0.3170296,
+          "top": 0.36758378,
+          "width": 0.090320766,
+          "height": 0.086333424
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005094866,
+        "box": {
+          "left": 0.5310792,
+          "top": 0.4400331,
+          "width": 0.07238662,
+          "height": 0.065104455
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005079396,
+        "box": {
+          "left": 0.3279329,
+          "top": 0.606563,
+          "width": 0.07820454,
+          "height": 0.06839806
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0050474564,
+        "box": {
+          "left": 0.120808214,
+          "top": 0.18543962,
+          "width": 0.22093958,
+          "height": 0.24070233
+        }
+      }
+    ]
+  },
+  "lighter_test_set_3of5.jpg": {
+    "ticket_no": "34236748",
+    "max_lighter_probability": 0.29522532,
+    "regions": [
+      {
+        "tag": "lighter",
+        "probability": 0.29522532,
+        "box": {
+          "left": 0.21509036,
+          "top": 0.17657542,
+          "width": 0.6412816,
+          "height": 0.3152275
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.093588,
+        "box": {
+          "left": 0.39935964,
+          "top": 0.4245184,
+          "width": 0.42328006,
+          "height": 0.55492043
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.07504145,
+        "box": {
+          "left": 0.21517798,
+          "top": 0.28074312,
+          "width": 0.21569598,
+          "height": 0.23326403
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.07040418,
+        "box": {
+          "left": 0.45991433,
+          "top": 0.3999075,
+          "width": 0.26666582,
+          "height": 0.19162884
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.06389538,
+        "box": {
+          "left": 0.27793434,
+          "top": 0.7351116,
+          "width": 0.22281191,
+          "height": 0.25599152
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.050998554,
+        "box": {
+          "left": 0.5643846,
+          "top": 0.3910561,
+          "width": 0.37992764,
+          "height": 0.54252326
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.035660114,
+        "box": {
+          "left": 0.6381674,
+          "top": 0.6400685,
+          "width": 0.23483884,
+          "height": 0.23142725
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.03488368,
+        "box": {
+          "left": 0.6235507,
+          "top": 0.16117458,
+          "width": 0.22979891,
+          "height": 0.2510116
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.021585926,
+        "box": {
+          "left": 0.48556504,
+          "top": 0.4617422,
+          "width": 0.08314648,
+          "height": 0.06998107
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.021086376,
+        "box": {
+          "left": 0.41828832,
+          "top": 0.5208006,
+          "width": 0.07625669,
+          "height": 0.06695706
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.020588107,
+        "box": {
+          "left": 0.30503184,
+          "top": 0.46406212,
+          "width": 0.6127604,
+          "height": 0.28495988
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.017576143,
+        "box": {
+          "left": 0.24926758,
+          "top": 0.5134772,
+          "width": 0.43256193,
+          "height": 0.48652178
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.017496372,
+        "box": {
+          "left": 0.28477037,
+          "top": 0.621251,
+          "width": 0.6470524,
+          "height": 0.29116225
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.016864708,
+        "box": {
+          "left": 0.33701938,
+          "top": 0.64260995,
+          "width": 0.24943554,
+          "height": 0.24453127
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.016700912,
+        "box": {
+          "left": 0.42744836,
+          "top": 0.93301857,
+          "width": 0.08772507,
+          "height": 0.06698042
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.015730213,
+        "box": {
+          "left": 0.41679022,
+          "top": 0.4238214,
+          "width": 0.24239084,
+          "height": 0.24195391
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.01458101,
+        "box": {
+          "left": 0.22714105,
+          "top": 0.61604065,
+          "width": 0.21196947,
+          "height": 0.29053396
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013848845,
+        "box": {
+          "left": 0.27402762,
+          "top": 0.37048703,
+          "width": 0.077801615,
+          "height": 0.058265835
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013633128,
+        "box": {
+          "left": 0.6937548,
+          "top": 0.0,
+          "width": 0.2644716,
+          "height": 0.19426417
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013256736,
+        "box": {
+          "left": 0.48109582,
+          "top": 0.4845679,
+          "width": 0.25638196,
+          "height": 0.24104282
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012233759,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.999999,
+          "height": 0.52583385
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012088336,
+        "box": {
+          "left": 0.68424356,
+          "top": 0.49484295,
+          "width": 0.25682694,
+          "height": 0.3316064
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.011461571,
+        "box": {
+          "left": 0.2629059,
+          "top": 0.3382255,
+          "width": 0.24342144,
+          "height": 0.21135446
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010945981,
+        "box": {
+          "left": 0.22166267,
+          "top": 0.36847815,
+          "width": 0.17965946,
+          "height": 0.2557923
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0106721325,
+        "box": {
+          "left": 0.16434902,
+          "top": 0.32254982,
+          "width": 0.19302237,
+          "height": 0.24030769
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010561949,
+        "box": {
+          "left": 0.33179718,
+          "top": 0.8075433,
+          "width": 0.26320797,
+          "height": 0.19245571
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009900452,
+        "box": {
+          "left": 0.48052356,
+          "top": 0.93422145,
+          "width": 0.089861125,
+          "height": 0.06577754
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009667623,
+        "box": {
+          "left": 0.4142198,
+          "top": 0.34029067,
+          "width": 0.2412498,
+          "height": 0.20847845
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0095826015,
+        "box": {
+          "left": 0.49583906,
+          "top": 0.6414093,
+          "width": 0.22172564,
+          "height": 0.24791479
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009569924,
+        "box": {
+          "left": 0.17292365,
+          "top": 0.72238296,
+          "width": 0.7232188,
+          "height": 0.27761602
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0091411,
+        "box": {
+          "left": 0.41343975,
+          "top": 0.055408485,
+          "width": 0.2483455,
+          "height": 0.24842557
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00889381,
+        "box": {
+          "left": 0.19686908,
+          "top": 0.31440204,
+          "width": 0.68145704,
+          "height": 0.25394553
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008750495,
+        "box": {
+          "left": 0.3471802,
+          "top": 0.0062974095,
+          "width": 0.23676187,
+          "height": 0.25631744
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008545429,
+        "box": {
+          "left": 0.49345687,
+          "top": 0.51764446,
+          "width": 0.074851125,
+          "height": 0.06745815
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008543798,
+        "box": {
+          "left": 0.55909026,
+          "top": 0.066188335,
+          "width": 0.24089372,
+          "height": 0.23974925
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008518054,
+        "box": {
+          "left": 0.2777665,
+          "top": 0.41675636,
+          "width": 0.07278216,
+          "height": 0.061276883
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008473265,
+        "box": {
+          "left": 0.45864984,
+          "top": 0.2167545,
+          "width": 0.4526252,
+          "height": 0.57452106
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0084545165,
+        "box": {
+          "left": 0.33956864,
+          "top": 0.5522403,
+          "width": 0.24993482,
+          "height": 0.1998406
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008249121,
+        "box": {
+          "left": 0.4016887,
+          "top": 0.22025743,
+          "width": 0.2630123,
+          "height": 0.23499414
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0078047626,
+        "box": {
+          "left": 0.22553463,
+          "top": 0.4188538,
+          "width": 0.07061319,
+          "height": 0.064128846
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0075667566,
+        "box": {
+          "left": 0.48911864,
+          "top": 0.16275749,
+          "width": 0.25416952,
+          "height": 0.24667785
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0074364496,
+        "box": {
+          "left": 0.5650407,
+          "top": 0.4115643,
+          "width": 0.087292016,
+          "height": 0.07091439
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0070459144,
+        "box": {
+          "left": 0.22715734,
+          "top": 0.5174529,
+          "width": 0.16741796,
+          "height": 0.27937645
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007040259,
+        "box": {
+          "left": 0.42654783,
+          "top": 0.46759346,
+          "width": 0.078938484,
+          "height": 0.06903693
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007026259,
+        "box": {
+          "left": 0.35740793,
+          "top": 0.0,
+          "width": 0.07148439,
+          "height": 0.050690997
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006959098,
+        "box": {
+          "left": 0.48842847,
+          "top": 0.28115508,
+          "width": 0.24588263,
+          "height": 0.23031214
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0069417073,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.22793856,
+          "height": 0.18901248
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006843716,
+        "box": {
+          "left": 0.6427696,
+          "top": 0.0,
+          "width": 0.07304835,
+          "height": 0.052521646
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006782556,
+        "box": {
+          "left": 0.28185883,
+          "top": 0.52157605,
+          "width": 0.072062105,
+          "height": 0.060951293
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006756599,
+        "box": {
+          "left": 0.20952295,
+          "top": 0.0,
+          "width": 0.080297455,
+          "height": 0.053818583
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006750221,
+        "box": {
+          "left": 0.7143236,
+          "top": 0.0,
+          "width": 0.07084924,
+          "height": 0.04995411
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006608161,
+        "box": {
+          "left": 0.7765711,
+          "top": 0.8089747,
+          "width": 0.22342789,
+          "height": 0.1910243
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0062269405,
+        "box": {
+          "left": 0.36314934,
+          "top": 0.522719,
+          "width": 0.06277242,
+          "height": 0.056209445
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00620992,
+        "box": {
+          "left": 0.63172823,
+          "top": 0.7602514,
+          "width": 0.2299853,
+          "height": 0.21602601
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00619671,
+        "box": {
+          "left": 0.41288888,
+          "top": 0.0,
+          "width": 0.24482286,
+          "height": 0.19284663
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006116314,
+        "box": {
+          "left": 0.0,
+          "top": 0.81852406,
+          "width": 0.22505182,
+          "height": 0.18147492
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005935662,
+        "box": {
+          "left": 0.4965463,
+          "top": 0.0,
+          "width": 0.07799831,
+          "height": 0.05208297
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0059228064,
+        "box": {
+          "left": 0.28075278,
+          "top": 0.0,
+          "width": 0.08206144,
+          "height": 0.05380459
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005897137,
+        "box": {
+          "left": 0.1993775,
+          "top": 0.0,
+          "width": 0.240468,
+          "height": 0.19128814
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057819565,
+        "box": {
+          "left": 0.42118043,
+          "top": 0.25227457,
+          "width": 0.08678931,
+          "height": 0.076082915
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057126773,
+        "box": {
+          "left": 0.42085817,
+          "top": 0.755799,
+          "width": 0.21534064,
+          "height": 0.22514254
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005682735,
+        "box": {
+          "left": 0.49550736,
+          "top": 0.011008345,
+          "width": 0.22257328,
+          "height": 0.24325377
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0056735277,
+        "box": {
+          "left": 0.5704623,
+          "top": 0.0,
+          "width": 0.07385087,
+          "height": 0.053481378
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005632444,
+        "box": {
+          "left": 0.0,
+          "top": 0.7918663,
+          "width": 0.06353072,
+          "height": 0.055305243
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005402112,
+        "box": {
+          "left": 0.69178766,
+          "top": 0.06737992,
+          "width": 0.23960489,
+          "height": 0.23000419
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0053725606,
+        "box": {
+          "left": 0.42620784,
+          "top": 0.0,
+          "width": 0.07514542,
+          "height": 0.051965777
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0053547155,
+        "box": {
+          "left": 0.10002047,
+          "top": 0.3787437,
+          "width": 0.8999785,
+          "height": 0.57784975
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0052984357,
+        "box": {
+          "left": 0.35687396,
+          "top": 0.2567163,
+          "width": 0.07342404,
+          "height": 0.06733376
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005283586,
+        "box": {
+          "left": 0.26691744,
+          "top": 0.7306309,
+          "width": 0.088377446,
+          "height": 0.07020098
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005242856,
+        "box": {
+          "left": 0.55959827,
+          "top": 0.8168896,
+          "width": 0.24023634,
+          "height": 0.1831094
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005172217,
+        "box": {
+          "left": 0.07707986,
+          "top": 0.038133115,
+          "width": 0.48219612,
+          "height": 0.60301256
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005084992,
+        "box": {
+          "left": 0.6354254,
+          "top": 0.41411254,
+          "width": 0.08765954,
+          "height": 0.06984082
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0050837356,
+        "box": {
+          "left": 0.13521658,
+          "top": 0.0,
+          "width": 0.088507935,
+          "height": 0.06019909
+        }
+      }
+    ]
+  },
+  "lighter_test_set_4of5.jpg": {
+    "ticket_no": "34236749",
+    "max_lighter_probability": 0.84091777,
+    "regions": [
+      {
+        "tag": "lighter",
+        "probability": 0.84091777,
+        "box": {
+          "left": 0.37827617,
+          "top": 0.15030839,
+          "width": 0.42798066,
+          "height": 0.4688388
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.15454292,
+        "box": {
+          "left": 0.27129364,
+          "top": 0.3061479,
+          "width": 0.5274662,
+          "height": 0.53936076
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.13164374,
+        "box": {
+          "left": 0.56877613,
+          "top": 0.56301236,
+          "width": 0.20927602,
+          "height": 0.25319743
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.043916408,
+        "box": {
+          "left": 0.20489061,
+          "top": 0.39788985,
+          "width": 0.6617471,
+          "height": 0.25689328
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.038434934,
+        "box": {
+          "left": 0.54755664,
+          "top": 0.10230936,
+          "width": 0.28709155,
+          "height": 0.26725727
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.03758745,
+        "box": {
+          "left": 0.3424873,
+          "top": 0.5141888,
+          "width": 0.23033825,
+          "height": 0.20634788
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.03391544,
+        "box": {
+          "left": 0.0,
+          "top": 0.45006746,
+          "width": 0.9741682,
+          "height": 0.5499315
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.032869138,
+        "box": {
+          "left": 0.20978135,
+          "top": 0.54951096,
+          "width": 0.6438241,
+          "height": 0.2559392
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.021160096,
+        "box": {
+          "left": 0.24225137,
+          "top": 0.4174679,
+          "width": 0.2706453,
+          "height": 0.19481158
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.018262833,
+        "box": {
+          "left": 0.21441774,
+          "top": 0.0,
+          "width": 0.21572424,
+          "height": 0.1816585
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.017407183,
+        "box": {
+          "left": 0.28796104,
+          "top": 0.14862034,
+          "width": 0.632221,
+          "height": 0.26540965
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.015866471,
+        "box": {
+          "left": 0.18705839,
+          "top": 0.5211478,
+          "width": 0.27106613,
+          "height": 0.2128846
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.014218615,
+        "box": {
+          "left": 0.25909716,
+          "top": 0.61384803,
+          "width": 0.26914233,
+          "height": 0.2173366
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013499432,
+        "box": {
+          "left": 0.764988,
+          "top": 0.0,
+          "width": 0.23501098,
+          "height": 0.17614837
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.013308212,
+        "box": {
+          "left": 0.058953583,
+          "top": 0.0,
+          "width": 0.23397419,
+          "height": 0.17896193
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012813455,
+        "box": {
+          "left": 0.50205576,
+          "top": 0.54780394,
+          "width": 0.07272124,
+          "height": 0.05569154
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012274877,
+        "box": {
+          "left": 0.41859382,
+          "top": 0.49403867,
+          "width": 0.23457122,
+          "height": 0.24272397
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.012118035,
+        "box": {
+          "left": 0.71116763,
+          "top": 0.0,
+          "width": 0.080255985,
+          "height": 0.052716292
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010851058,
+        "box": {
+          "left": 0.21088767,
+          "top": 0.0,
+          "width": 0.07901293,
+          "height": 0.052400447
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010845128,
+        "box": {
+          "left": 0.7779633,
+          "top": 0.0,
+          "width": 0.08590227,
+          "height": 0.05371233
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.01061418,
+        "box": {
+          "left": 0.5604516,
+          "top": 0.5908783,
+          "width": 0.08964294,
+          "height": 0.0646798
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00986149,
+        "box": {
+          "left": 0.50104845,
+          "top": 0.5943932,
+          "width": 0.07451153,
+          "height": 0.05624467
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009702354,
+        "box": {
+          "left": 0.5581043,
+          "top": 0.11459795,
+          "width": 0.36272782,
+          "height": 0.5272206
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.009286074,
+        "box": {
+          "left": 0.28139257,
+          "top": 0.0,
+          "width": 0.079717636,
+          "height": 0.052127697
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008847246,
+        "box": {
+          "left": 0.14299339,
+          "top": 0.0,
+          "width": 0.07495725,
+          "height": 0.05236788
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007987734,
+        "box": {
+          "left": 0.35689092,
+          "top": 0.0,
+          "width": 0.074254096,
+          "height": 0.05321376
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007746233,
+        "box": {
+          "left": 0.6893318,
+          "top": 0.014773473,
+          "width": 0.2658971,
+          "height": 0.22423443
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007638934,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.999999,
+          "height": 0.4789157
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007338511,
+        "box": {
+          "left": 0.5704415,
+          "top": 0.641828,
+          "width": 0.07388091,
+          "height": 0.059252977
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007189086,
+        "box": {
+          "left": 0.19510336,
+          "top": 0.06492778,
+          "width": 0.25327742,
+          "height": 0.22237304
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007072342,
+        "box": {
+          "left": 0.42353398,
+          "top": 0.410189,
+          "width": 0.22129047,
+          "height": 0.23656091
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007067689,
+        "box": {
+          "left": 0.27946436,
+          "top": 0.022898212,
+          "width": 0.22538638,
+          "height": 0.20590106
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006975878,
+        "box": {
+          "left": 0.33372128,
+          "top": 0.6549311,
+          "width": 0.2545575,
+          "height": 0.22946298
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0069449856,
+        "box": {
+          "left": 0.43620032,
+          "top": 0.49397418,
+          "width": 0.065387726,
+          "height": 0.061165422
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0068540657,
+        "box": {
+          "left": 0.4353786,
+          "top": 0.54785854,
+          "width": 0.06741238,
+          "height": 0.057127595
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0067100483,
+        "box": {
+          "left": 0.06520453,
+          "top": 0.042544246,
+          "width": 0.5165416,
+          "height": 0.5620856
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0065289973,
+        "box": {
+          "left": 0.1311903,
+          "top": 0.02408582,
+          "width": 0.22924298,
+          "height": 0.202577
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0064099254,
+        "box": {
+          "left": 0.053965963,
+          "top": 0.7523822,
+          "width": 0.24540561,
+          "height": 0.24580139
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.006327333,
+        "box": {
+          "left": 0.85324097,
+          "top": 0.0,
+          "width": 0.08123571,
+          "height": 0.05636169
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0062892344,
+        "box": {
+          "left": 0.21039285,
+          "top": 0.22330907,
+          "width": 0.22164612,
+          "height": 0.20980743
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0059200753,
+        "box": {
+          "left": 0.6399409,
+          "top": 0.0,
+          "width": 0.08088857,
+          "height": 0.054525256
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005918224,
+        "box": {
+          "left": 0.0,
+          "top": 0.044027686,
+          "width": 0.65320486,
+          "height": 0.2629575
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0058864183,
+        "box": {
+          "left": 0.05526352,
+          "top": 0.06688894,
+          "width": 0.24250224,
+          "height": 0.21505736
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057889395,
+        "box": {
+          "left": 0.5638812,
+          "top": 0.5406037,
+          "width": 0.085299015,
+          "height": 0.0650658
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057578958,
+        "box": {
+          "left": 0.6260514,
+          "top": 0.58561134,
+          "width": 0.1045897,
+          "height": 0.075259805
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00574432,
+        "box": {
+          "left": 0.5598591,
+          "top": 0.0,
+          "width": 0.23210847,
+          "height": 0.18313147
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00552836,
+        "box": {
+          "left": 0.0,
+          "top": 0.026105851,
+          "width": 0.22314548,
+          "height": 0.19690862
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005455038,
+        "box": {
+          "left": 0.4260834,
+          "top": 0.0,
+          "width": 0.077332854,
+          "height": 0.054788835
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0053950893,
+        "box": {
+          "left": 0.20436953,
+          "top": 0.035383895,
+          "width": 0.09158002,
+          "height": 0.07404226
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005365642,
+        "box": {
+          "left": 0.49894074,
+          "top": 0.49828494,
+          "width": 0.07479259,
+          "height": 0.056250215
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005250965,
+        "box": {
+          "left": 0.50323826,
+          "top": 0.64575946,
+          "width": 0.073355556,
+          "height": 0.057563066
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005243946,
+        "box": {
+          "left": 0.5214554,
+          "top": 0.0,
+          "width": 0.45975673,
+          "height": 0.29903165
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0052190213,
+        "box": {
+          "left": 0.34596795,
+          "top": 0.0,
+          "width": 0.23092127,
+          "height": 0.1852451
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0050531086,
+        "box": {
+          "left": 0.43351674,
+          "top": 0.6463063,
+          "width": 0.06808758,
+          "height": 0.056889355
+        }
+      }
+    ]
+  },
+  "lighter_test_set_5of5.jpg": {
+    "ticket_no": "34236750",
+    "max_lighter_probability": 0.13678725,
+    "regions": [
+      {
+        "tag": "lighter",
+        "probability": 0.13678725,
+        "box": {
+          "left": 0.31689417,
+          "top": 0.05000779,
+          "width": 0.6831048,
+          "height": 0.90398395
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.10626578,
+        "box": {
+          "left": 0.26991612,
+          "top": 0.3358929,
+          "width": 0.43758446,
+          "height": 0.44055787
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.07271998,
+        "box": {
+          "left": 0.28213573,
+          "top": 0.32006025,
+          "width": 0.19299826,
+          "height": 0.41619468
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.06085429,
+        "box": {
+          "left": 0.52885145,
+          "top": 0.30894402,
+          "width": 0.18470603,
+          "height": 0.41742417
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.048383165,
+        "box": {
+          "left": 0.0,
+          "top": 0.067085534,
+          "width": 0.62008613,
+          "height": 0.8626865
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.014000328,
+        "box": {
+          "left": 0.5028801,
+          "top": 0.2709184,
+          "width": 0.15956092,
+          "height": 0.2949073
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010945145,
+        "box": {
+          "left": 0.783761,
+          "top": 0.0,
+          "width": 0.17830682,
+          "height": 0.29700038
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.010222521,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.15514526,
+          "height": 0.27327275
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.00938792,
+        "box": {
+          "left": 0.65325576,
+          "top": 0.0,
+          "width": 0.34674323,
+          "height": 0.61913496
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.008476943,
+        "box": {
+          "left": 0.0,
+          "top": 0.71378994,
+          "width": 0.16269614,
+          "height": 0.28620905
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.007971586,
+        "box": {
+          "left": 0.6158482,
+          "top": 0.33678442,
+          "width": 0.13892329,
+          "height": 0.329327
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0075818286,
+        "box": {
+          "left": 0.5043028,
+          "top": 0.53586847,
+          "width": 0.046170413,
+          "height": 0.09095925
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061896923,
+        "box": {
+          "left": 0.090033874,
+          "top": 0.0,
+          "width": 0.16597737,
+          "height": 0.27976283
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0061486633,
+        "box": {
+          "left": 0.1948797,
+          "top": 0.34352076,
+          "width": 0.1625805,
+          "height": 0.32622957
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0057457117,
+        "box": {
+          "left": 0.0,
+          "top": 0.0,
+          "width": 0.40150273,
+          "height": 0.38705862
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005182003,
+        "box": {
+          "left": 0.5013678,
+          "top": 0.45373392,
+          "width": 0.05041635,
+          "height": 0.09072018
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.0051645353,
+        "box": {
+          "left": 0.29764116,
+          "top": 0.69955885,
+          "width": 0.15786824,
+          "height": 0.30044013
+        }
+      },
+      {
+        "tag": "lighter",
+        "probability": 0.005100629,
+        "box": {
+          "left": 0.034856223,
+          "top": 0.011917293,
+          "width": 0.173484,
+          "height": 0.35270512
+        }
+      }
+    ]
+  }
+}

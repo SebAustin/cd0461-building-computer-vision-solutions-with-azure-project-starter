@@ -1,0 +1,36 @@
+{
+  "ticket_no": "34236750",
+  "passenger": "James Jackson",
+  "extracted_id": {
+    "first_name": "James",
+    "last_name": "Jackson",
+    "date_of_birth": "1956-10-12",
+    "sex": "M"
+  },
+  "extracted_boarding_pass": {
+    "passenger_name": "James Jackson",
+    "carrier": "UA",
+    "flight_no": "234",
+    "travel_class": "E",
+    "origin": "San Francisco",
+    "destination": "Chicago",
+    "flight_date": "April 20, 2022",
+    "boarding_time": "10:00 AM",
+    "seat": "25B",
+    "ticket_no": "ETK-34236750E"
+  },
+  "person_match": null,
+  "luggage_scan": {
+    "status": "scanned",
+    "lighter_probability": 0.13678725,
+    "image": "lighter_test_set_5of5.jpg"
+  },
+  "validations": {
+    "NameValidation": true,
+    "DoBValidation": true,
+    "PersonValidation": false,
+    "BoardingPassValidation": true,
+    "LuggageValidation": true
+  },
+  "kiosk_message": "Dear Mr. James Jackson,\nYou are welcome to flight # UA234 leaving at 10:00 AM from San Francisco to Chicago.\nYour seat number is 25B, and it is confirmed.\nWe did not find a prohibited item (lighter) in your carry-on baggage, thanks for following the procedure.\nYour identity could not be verified. Please see a customer service representative."
+}

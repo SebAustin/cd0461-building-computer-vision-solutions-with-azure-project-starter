@@ -1,0 +1,9 @@
+{
+  "_comment": "DoB and Sex read by eye from each Digital ID (starter/digital_id_template). James Webb's DoB is deliberately one day off (ID says 1970-12-15) to demonstrate a failed DoB Validation.",
+  "34236746": {"name": "Sameer Kumar", "DateOfBirth": "1990-01-25", "Sex": "M", "digital_id": "ca-dl-sameer-kumar.png", "boarding_pass": "boarding-sameer.pdf"},
+  "34236747": {"name": "Radha S. Kumar", "DateOfBirth": "1994-03-05", "Sex": "F", "digital_id": "ca-dl-radha-s-kumar.png", "boarding_pass": "boarding-radha-s-kumar.pdf"},
+  "34236748": {"name": "James Webb", "DateOfBirth": "1970-12-16", "Sex": "M", "digital_id": "ca-dl-james-webb.png", "boarding_pass": "boarding-james-webb.pdf"},
+  "34236749": {"name": "Libby Herold", "DateOfBirth": "1996-02-10", "Sex": "F", "digital_id": "ca-dl-libby-herold.png", "boarding_pass": "boarding-libby.pdf"},
+  "34236750": {"name": "James Jackson", "DateOfBirth": "1956-10-12", "Sex": "M", "digital_id": "ca-dl-james-jackson.png", "boarding_pass": "boarding-james.pdf"},
+  "34236751": {"name": "Avkash Chauhan", "DateOfBirth": "1990-01-01", "Sex": "M", "digital_id": "ca-dl-avkash.png", "boarding_pass": "boarding-avkash.pdf", "identity_video": "avkash-boarding-pass.mp4"}
+}

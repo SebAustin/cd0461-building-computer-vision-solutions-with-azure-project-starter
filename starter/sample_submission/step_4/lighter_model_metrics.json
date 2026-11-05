@@ -1,0 +1,15 @@
+{
+  "iteration": "Iteration 3",
+  "training_type": "Advanced (1-hour budget)",
+  "precision": 1.0,
+  "recall": 0.4117647,
+  "mAP": 0.92362636,
+  "prediction_endpoint": "https://kiosk-prediction-305856.cognitiveservices.azure.com/customvision/v3.0/Prediction/c8daa25a-0ff8-44fc-8273-594597c91091/detect/iterations/lighter-detector/image",
+  "previous": {
+    "iteration": "Iteration 2",
+    "training_type": "Quick",
+    "precision": 1.0,
+    "recall": 0.1764706,
+    "mAP": 0.8157572
+  }
+}

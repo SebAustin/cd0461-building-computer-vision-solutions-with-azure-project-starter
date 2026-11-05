@@ -1,0 +1,34 @@
+{
+ "modelId": "prebuilt-idDocument",
+ "documents": [
+  {
+   "docType": "idDocument.driverLicense",
+   "fields": {
+    "FirstName": {
+     "type": "string",
+     "valueString": "Radha",
+     "content": ":Radha",
+     "confidence": 0.714
+    },
+    "LastName": {
+     "type": "string",
+     "valueString": "S Kumar",
+     "content": "S Kumar",
+     "confidence": 0.591
+    },
+    "DateOfBirth": {
+     "type": "date",
+     "valueDate": "1994-03-05",
+     "content": "03/05/1994",
+     "confidence": 0.652
+    },
+    "Sex": {
+     "type": "string",
+     "valueString": "F",
+     "content": "SEXF",
+     "confidence": 0.374
+    }
+   }
+  }
+ ]
+}
